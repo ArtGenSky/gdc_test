@@ -1,0 +1,5 @@
+mixin monthNavItem(month)
+  +e.month(data-month=month)&attributes(attributes)
+    +b.btn_small
+      +e.text= month
+        block

@@ -1,0 +1,31 @@
+extends ../layout/layout
+include ../blocks/month
+
+block metaVars
+  - var title = 'Calendar';
+
+block content
+  +b.calendar-interface
+    +e.nav
+      +b.NAV.months-nav
+        +e.title Choose your month:
+        +e.quaters-list
+          +e.quater
+            +monthNavItem('Jan')
+            +monthNavItem('Feb')
+            +monthNavItem('Mar')
+          +e.quater
+            +monthNavItem('Apr')
+            +monthNavItem('May')
+            +monthNavItem('Jun')
+          +e.quater
+            +monthNavItem('Jul')
+            +monthNavItem('Aug')
+            +monthNavItem('Sep')
+          +e.quater
+            +monthNavItem('Oct')
+            +monthNavItem('Nov')
+            +monthNavItem('Dec')
+    +e.content
+      +b.todo-list
+        +e.loader Loading data...

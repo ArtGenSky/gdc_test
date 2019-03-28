@@ -1,0 +1,20 @@
+include ../bemto/bemto
+include ../blocks/body
+include ../blocks/container
+
+doctype html
+
+html(lang="ru")
+
+  include ../blocks/head
+
+  +body
+
+    +container
+
+      include ../blocks/header
+      
+      +b.interface-box
+        block content
+
+    include ../blocks/scripts

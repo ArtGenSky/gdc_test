@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Calendar</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="top-line">
+          <div class="top-line__interface-title">
+            <div class="interface-title">
+              <div class="interface-title__text">Calendar
+              </div>
+            </div>
+          </div>
+          <div class="top-line__nav">
+            <nav class="interface-nav">
+              <ul class="interface-nav__list">
+                <li class="interface-nav__item">
+                  <div class="btn">
+                    <div class="btn__text">Home
+                    </div>
+                  </div>
+                </li>
+                <li class="interface-nav__item">
+                  <div class="btn">
+                    <div class="btn__text">About
+                    </div>
+                  </div>
+                </li>
+                <li class="interface-nav__item">
+                  <div class="btn btn_active">
+                    <div class="btn__text">Calendar
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="interface-box">
+        <div class="calendar-interface">
+          <div class="calendar-interface__nav">
+            <nav class="months-nav">
+              <div class="months-nav__title">Choose your month:
+              </div>
+              <div class="months-nav__quaters-list">
+                <div class="months-nav__quater">
+                  <div class="months-nav__month" data-month="Jan">
+                    <div class="btn btn_small">
+                      <div class="btn__text">Jan
+                      </div>
+                    </div>
+                  </div>
+                  <div class="months-nav__month" data-month="Feb">
+                    <div class="btn btn_small">
+                      <div class="btn__text">Feb
+                      </div>
+                    </div>
+                  </div>
+                  <div class="months-nav__month" data-month="Mar">
+                    <div class="btn btn_small">
+                      <div class="btn__text">Mar
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="months-nav__quater">
+                  <div class="months-nav__month" data-month="Apr">
+                    <div class="btn btn_small">
+                      <div class="btn__text">Apr
+                      </div>
+                    </div>
+                  </div>
+                  <div class="months-nav__month" data-month="May">
+                    <div class="btn btn_small">
+                      <div class="btn__text">May
+                      </div>
+                    </div>
+                  </div>
+                  <div class="months-nav__month" data-month="Jun">
+                    <div class="btn btn_small">
+                      <div class="btn__text">Jun
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="months-nav__quater">
+                  <div class="months-nav__month" data-month="Jul">
+                    <div class="btn btn_small">
+                      <div class="btn__text">Jul
+                      </div>
+                    </div>
+                  </div>
+                  <div class="months-nav__month" data-month="Aug">
+                    <div class="btn btn_small">
+                      <div class="btn__text">Aug
+                      </div>
+                    </div>
+                  </div>
+                  <div class="months-nav__month" data-month="Sep">
+                    <div class="btn btn_small">
+                      <div class="btn__text">Sep
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="months-nav__quater">
+                  <div class="months-nav__month" data-month="Oct">
+                    <div class="btn btn_small">
+                      <div class="btn__text">Oct
+                      </div>
+                    </div>
+                  </div>
+                  <div class="months-nav__month" data-month="Nov">
+                    <div class="btn btn_small">
+                      <div class="btn__text">Nov
+                      </div>
+                    </div>
+                  </div>
+                  <div class="months-nav__month" data-month="Dec">
+                    <div class="btn btn_small">
+                      <div class="btn__text">Dec
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="calendar-interface__content">
+            <div class="todo-list">
+              <div class="todo-list__loader">Loading data...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>

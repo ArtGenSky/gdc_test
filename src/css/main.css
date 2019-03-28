@@ -1,0 +1,142 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 35px 15px;
+}
+
+.header {
+  margin-bottom: 25px;
+}
+
+.top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: -7px -15px;
+}
+
+.top-line__interface-title {
+  padding: 7px 15px;
+}
+
+.top-line__nav {
+  padding: 7px 15px;
+}
+
+.interface-title__text {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.interface-nav__list {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.interface-nav__item + .interface-nav__item {
+  margin-left: -1px;
+}
+
+.btn {
+  padding: 0.4375em 0.9375em;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #ddd;
+}
+
+.btn_active {
+  background: #95bcf2;
+  cursor: default;
+}
+
+.btn_active:hover {
+  background: #95bcf2;
+}
+
+.btn_small {
+  font-size: 0.9em;
+}
+
+.interface-box {
+  border: 1px solid #000;
+  padding: 15px;
+}
+
+.calendar-interface__nav {
+  margin-bottom: 35px;
+}
+
+.months-nav__title {
+  font-size: 0.9em;
+  margin-bottom: 0.7em;
+}
+
+.months-nav__quaters-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.months-nav__quater {
+  display: flex;
+  margin: -1px -1px 0 0;
+}
+
+.months-nav__month {
+  width: 60px;
+}
+
+.months-nav__month + .months-nav__month {
+  margin-left: -1px;
+}
+
+.todo-list {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.todo-list__item {
+  margin: 10px 0;
+}
+
+.todo-list__loader {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #95bcf2;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+}
+
+.todo-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -3px;
+}
+
+.todo-item__date {
+  margin: 3px;
+}
+
+.todo-item__time {
+  margin: 3px;
+}
+
+.todo-item__title {
+  margin: 3px;
+  color: #95bcf2;
+  font-weight: 700;
+}
